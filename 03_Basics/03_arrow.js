@@ -1,17 +1,17 @@
-const user = {
-    username: "abhi",
-    price: 999,
+// const user = {
+//     name: "abhi",
+//     price: 999,
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
+//     welcomeMessage: function() {
+//         console.log(`${this.name} , welcome to website`);
+//         console.log(this);
+//     }
 
-}
+// }
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+// // user.welcomeMessage()
+// // user.name = "sam"
+// // user.welcomeMessage()
 
 // console.log(this);
 
@@ -22,28 +22,38 @@ const user = {
 
 // chai()
 
-// const chai = function () {
+// // const chai = function () {
+// //     let username = "abhi"
+// //     console.log(this.username);
+// // }
+
+// const chai =  () => {
 //     let username = "abhi"
-//     console.log(this.username);
+//     console.log(this);
 // }
 
-const chai =  () => {
-    let username = "abhi"
-    console.log(this);
+
+// chai()
+
+// const coffee=()=> {
+//     let username = "abhi"
+//     console.log(this);
+// }
+// coffee()
+
+const addTwo = (num1, num2) => {
+    return num1 + num2
 }
+function addthree(num3,num4,num5){
+    return num3+num4+num5
 
-
-chai()
-
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
-// }
+}
 
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "abhi"})
+// const addTwo = (num1, num2) => ({username: "abhi"})
 
 
 console.log(addTwo(3, 4))
