@@ -1,0 +1,64 @@
+/* Reset + base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/* Header section */
+.header-content {
+  margin: 30px 0;
+}
+
+/* Button styling */
+.btn {
+  background-color: #62d316;
+  color: #111;
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background-color: #7efc2a;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* Image container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  background: #111;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Image styling */
+.container img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: contain;
+  border-radius: 12px;
+}
